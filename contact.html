@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Forum with client-side validation</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+<form action="form.php" method="post">
+<fieldset>
+<legend>Contact Us</legend>
+<p>All fields are required, as indicated by the red icons.</p>
+<label for="Name">Name:</label>
+<input type="text" name="name" id="name" required>
+<label for="email">Email:</label>
+<input type="email" name="email" id="email" required>
+<label for="comments">Message:</label>
+<textarea cols="25" rows="5" name="comments" required></textarea>
+<br>
+<br>
+<input type="Submit" name="Submit" id="Submit">
+</fieldset></form>
+<html>
